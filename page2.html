@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UrbanWear — Категории</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body background="media/bg.jpg" data-page="lists">
+
+<header>
+  <div class="container">
+    <div class="topbar">
+      <div class="brand">
+        <b>UrbanWear</b>
+        <span>Категории • подборки</span>
+      </div>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a class="active" href="page2.html">Категории</a>
+        <a href="page3.html">Прайс</a>
+        <a href="https://www.wildberries.kz/" target="_blank" rel="noopener">Wildberries</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="container hero">
+  <div class="card">
+    <h1>Категории магазина</h1>
+    <p class="small">Сейчас: <span class="badge"><b id="clock">--:--</b></span></p>
+
+    <hr>
+
+    <h2>Вложенный список (по критерию)</h2>
+    <p>Основной список — <b>римский</b>, вложенный — <b>квадрат</b>.</p>
+
+    <ol type="I">
+      <li>
+        Верхняя одежда
+        <ul style="list-style-type: square;">
+          <li>Куртки</li>
+          <li>Пальто</li>
+          <li>Ветровки</li>
+        </ul>
+      </li>
+      <li>
+        Повседневная
+        <ul style="list-style-type: square;">
+          <li>Худи</li>
+          <li>Футболки</li>
+          <li>Рубашки</li>
+        </ul>
+      </li>
+      <li>
+        Низ
+        <ul style="list-style-type: square;">
+          <li>Джинсы</li>
+          <li>Брюки</li>
+          <li>Шорты</li>
+        </ul>
+      </li>
+    </ol>
+
+    <hr>
+
+    <h2>Маркированный список (доп.)</h2>
+    <ul>
+      <li><b>Новые поступления</b> каждую неделю</li>
+      <li><i>Подбор размера</i> в чате</li>
+      <li><u>Обмен/возврат</u> 14 дней</li>
+    </ul>
+
+    <div class="btnrow">
+      <a class="btn" href="index.html">← На главную</a>
+      <a class="btn" href="page3.html">К прайсу →</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container footerwrap">
+    <div>© 2026 • UrbanWear</div>
+    <div class="small">Внешняя ссылка: <a href="https://developer.mozilla.org/ru/docs/Web/HTML" target="_blank" rel="noopener">MDN HTML</a></div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UrbanWear — Прайс</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body background="media/bg.jpg" data-page="table">
+
+<header>
+  <div class="container">
+    <div class="topbar">
+      <div class="brand">
+        <b>UrbanWear</b>
+        <span>Прайс-лист • таблица</span>
+      </div>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="page2.html">Категории</a>
+        <a class="active" href="page3.html">Прайс</a>
+        <a href="https://kaspi.kz/shop/" target="_blank" rel="noopener">Kaspi Shop</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="container hero">
+  <div class="card">
+    <h1>Прайс-лист</h1>
+    <p class="small">Сейчас: <span class="badge"><b id="clock">--:--</b></span></p>
+
+    <hr>
+
+    <h2>Таблица с объединением ячеек</h2>
+    <p>Есть <b>rowspan</b> и <b>colspan</b>.</p>
+
+    <table>
+      <tr>
+        <th rowspan="2">Категория</th>
+        <th colspan="2">Цена</th>
+        <th rowspan="2">Примечание</th>
+      </tr>
+      <tr>
+        <th>Стандарт</th>
+        <th>Sale</th>
+      </tr>
+
+      <tr>
+        <td>Футболки</td>
+        <td>7 990 ₸</td>
+        <td>6 390 ₸</td>
+        <td>Хлопок 100%</td>
+      </tr>
+
+      <tr>
+        <td>Худи</td>
+        <td>19 990 ₸</td>
+        <td>15 990 ₸</td>
+        <td>Оверсайз</td>
+      </tr>
+
+      <tr>
+        <td colspan="3"><b>Комплект: футболка + худи</b></td>
+        <td>Скидка -10%</td>
+      </tr>
+
+      <tr>
+        <td>Джинсы</td>
+        <td>24 990 ₸</td>
+        <td>21 990 ₸</td>
+        <td>Размеры 28–36</td>
+      </tr>
+    </table>
+
+    <div class="btnrow" style="margin-top: 14px;">
+      <a class="btn" href="page2.html">← Категории</a>
+      <a class="btn" href="index.html">На главную</a>
+      <button onclick="fact()">Факт (скрипт)</button>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container footerwrap">
+    <div>© 2026 • UrbanWear</div>
+    <div>Готово ✅</div>
+  </div>
+</footer>
+
+</body>
+</html>

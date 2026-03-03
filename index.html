@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UrbanWear — Главная</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body background="media/bg.jpg" data-page="home">
+
+<header>
+  <div class="container">
+    <div class="topbar">
+      <div class="brand">
+        <b>UrbanWear</b>
+        <span>Магазин одежды • street / casual</span>
+      </div>
+      <nav>
+        <a class="active" href="index.html">Главная</a>
+        <a href="page2.html">Категории</a>
+        <a href="page3.html">Прайс</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="container hero">
+  <div class="card">
+    <marquee behavior="scroll" direction="left">
+      СКИДКА -20% на худи до воскресенья • Бесплатная доставка от 25 000 ₸ • Новая коллекция уже в продаже
+    </marquee>
+
+    <div class="grid">
+      <div>
+        <h1>Стиль на каждый день</h1>
+        <p class="small">Сейчас: <span class="badge"><b id="clock">--:--</b></span></p>
+
+        <hr>
+
+        <h2>Описание магазина</h2>
+        <p>
+          У нас есть <b>худи</b>, <i>футболки</i>, <u>джинсы</u> и кроссовки.
+          Пример “учебного” форматирования:
+          <font face="Georgia" size="4" color="#6ee7ff">
+            новый шрифт/размер/цвет через &lt;font&gt;
+          </font>
+        </p>
+
+        <div class="btnrow">
+          <button onclick="fact()">Фэшн-факт (скрипт)</button>
+          <a class="btn" href="page2.html">Смотреть категории →</a>
+        </div>
+
+        <p id="hello" style="margin-top: 10px;"></p>
+
+        <hr>
+
+        <h2>Фото товара</h2>
+        <img class="media" src="media/photo.jpg" alt="Фото одежды (замени на своё)">
+
+        <hr>
+
+        <h2>Видео-обзор</h2>
+        <video class="media" controls>
+          <source src="media/video.mp4" type="video/mp4">
+          Ваш браузер не поддерживает видео.
+        </video>
+
+        <hr>
+
+        <h2>Музыка для шопинга</h2>
+        <audio class="media" controls>
+          <source src="media/music.mp3" type="audio/mpeg">
+          Ваш браузер не поддерживает аудио.
+        </audio>
+
+        <p class="small">Если медиа не работает — проверь файлы в папке <kbd>media</kbd>.</p>
+      </div>
+
+      <div>
+        <div class="card" style="background: rgba(255,255,255,.06);">
+          <h3>Быстрые ссылки</h3>
+          <ul style="list-style-type: square;">
+            <li><a href="page2.html">Категории</a></li>
+            <li><a href="page3.html">Прайс-лист</a></li>
+            <li><a href="https://kaspi.kz/" target="_blank" rel="noopener">Kaspi (внешняя ссылка)</a></li>
+          </ul>
+          <hr>
+          <p class="small">График: Пн–Сб 10:00–20:00</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="container footerwrap">
+    <div>© 2026 • UrbanWear</div>
+    <div>Далее: <a href="page2.html">Категории</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
